@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tugbaozaydin.myapplication.Activity.RegisterActivity">
+
+    <include
+        android:id="@+id/actionbarRegister"
+        layout="@layout/actionbar_app" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionbarRegister"
+        android:background="@drawable/gradient"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtInfo1"
+            android:layout_height="40dp"
+            android:layout_width="250dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/create_new_account"
+            android:textColor="@android:color/black"
+            android:ems="10"
+             />
+
+
+        <EditText
+            android:background="@color/colorGri"
+            android:id="@+id/txtUsernameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:drawableLeft="@drawable/icon_user"/>
+
+        <EditText
+            android:background="@color/colorGri"
+            android:id="@+id/txtEmailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/icon_mail"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:background="@color/colorGri"
+            android:id="@+id/txtPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/password"
+            android:drawableLeft="@drawable/icon_lock"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorLila"
+            android:text="@string/create_account"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/btnLoginRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorAccent"
+            android:text="@string/login_with_your_account"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

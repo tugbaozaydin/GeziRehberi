@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+   android:background="@drawable/gradient"
+    android:padding="20dp">
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarLogin" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:src="@drawable/gezirehberilogo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtWelcomeAppName"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txtWelcomeAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="35sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"/>
+    <Button
+        android:id="@+id/btnWelcomeLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLoginButton"
+        android:text="@string/ı_have_account"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/btnWelcomeRegister"
+        android:layout_marginBottom="25dp"/>
+    <Button
+        android:id="@+id/btnWelcomeRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="@string/create_new_account"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"/>
+
+
+</RelativeLayout>

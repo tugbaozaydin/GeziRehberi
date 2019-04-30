@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "753855977193",
+    "firebase_url": "https://gezirehberi-b6f18.firebaseio.com",
+    "project_id": "gezirehberi-b6f18",
+    "storage_bucket": "gezirehberi-b6f18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753855977193:android:f92e8cbfd2537742",
+        "android_client_info": {
+          "package_name": "com.tugbaozaydin.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753855977193-8irq0cj3olcjf6ag8i7c2dgpll6vqvfi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tugbaozaydin.myapplication",
+            "certificate_hash": "929544c0532c8aa5845506898a82e1312afc6a86"
+          }
+        },
+        {
+          "client_id": "753855977193-37sub8318mlras43mgeukrhe74o6o150.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo60LxApAhyQdLPMIkQiB459W7i8NmjhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753855977193-37sub8318mlras43mgeukrhe74o6o150.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

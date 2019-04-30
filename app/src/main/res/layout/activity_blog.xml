@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context="com.tugbaozaydin.myapplication.Activity.BlogActivity">
+    <include
+        android:id="@+id/actionbarLogin"
+        layout="@layout/actionbar_app" />
+    <TextView
+        android:id="@+id/txtSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionbarLogin"
+        android:text="@string/subject"
+        android:background="@color/colorGri"
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/edtSub"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/txtSub"
+        android:layout_margin="10dp"/>
+    <Spinner
+        android:id="@+id/spinCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@id/edtSub" />
+    <Button
+        android:id="@+id/btnKayit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinCountry"
+        android:layout_centerInParent="true"
+        android:text="@string/register"/>
+
+</RelativeLayout>

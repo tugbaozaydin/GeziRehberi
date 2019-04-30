@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#57b53f</color>
+    <color name="colorPrimaryDark">#1E309C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLoginButton">#FF4081</color>
+    <color name="colorGri">#11000000</color>
+    <color name="colorLila">#BF56D1</color>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Gezilecek Yerler">
+        <menu>
+            <item
+            android:id="@+id/nav_mosque"
+            android:icon="@drawable/mosque"
+            android:title="Camiiler" />
+            <item
+                android:id="@+id/nav_historial"
+                android:icon="@drawable/historical"
+                android:title="Tarihi Yerler" />
+            <item
+                android:id="@+id/nav_museum"
+                android:icon="@drawable/museum"
+                android:title="Müzeler" />
+            <item
+                android:id="@+id/nav_nature"
+                android:icon="@drawable/nature"
+                android:title="Doğal Yerler" />
+            <item
+                android:id="@+id/nav_camp"
+                android:icon="@drawable/camp"
+                android:title="Camp Alanları" />
+            <item
+                android:id="@+id/nav_activity"
+                android:icon="@drawable/activity"
+                android:title="Aktiviteler" />
+        </menu>
+    </item>
+
+</menu>
